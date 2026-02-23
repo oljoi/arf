@@ -1,0 +1,20 @@
+[package]
+name = "arf"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.79"
+authors = ["oljoi"]
+description = "no_std, zero-allocation, const-generic command-line argument parser for embedded and size-constrained binaries"
+license = "MIT"
+repository = "https://github.com/oljoi/arf"
+homepage = "https://github.com/oljoi/arf"
+documentation = "https://docs.rs/arf"
+readme = "README.md"
+keywords = ["cli", "argv", "no_std", "const-generic", "embedded"]
+categories = ["command-line-interface", "no-std", "parser-implementations"]
+
+[dependencies]
+
+[features]
+default = []
+std = []
